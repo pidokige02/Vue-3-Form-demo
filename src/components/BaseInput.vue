@@ -4,7 +4,9 @@
     // :value="modelValue" // value can be string and number
     // :placeholder="label"
 // Bind $attrs
-// 
+// bind the $attrs object to input by adding v-bind="$attrs” to our input element.
+// With this small change, the input elements will now correctly receive the type binding from the parent, and our CSS classes will be applied.
+
 <template>
   <label v-if="label">{{ label }}</label>
   <input
