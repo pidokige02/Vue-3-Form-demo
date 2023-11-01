@@ -21,6 +21,7 @@
 export default {
   props: {
     options: {
+      // pass an array of options that they want to let the user choose from
       type: Array,
       required: true
     },

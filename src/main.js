@@ -17,7 +17,8 @@ requireComponent.keys().forEach(fileName => {
   const componentName = upperFirst(
     camelCase(fileName.replace(/^\.\/(.*)\.\w+$/, '$1'))
   )
-
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+  
   app.component(componentName, componentConfig.default || componentConfig)
 })
 

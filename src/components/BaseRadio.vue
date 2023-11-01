@@ -16,11 +16,11 @@ export default {
       type: String,
       default: ''
     },
-    modelValue: {
+    modelValue: { // comment : contains user's preferred value from the radio button group
       type: [String, Number],
       default: ''
     },
-    value: {
+    value: {    // comment : contains value that attached to this component (ex : dog or cat)
       type: [String, Number],
       required: true
     }
