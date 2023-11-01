@@ -44,6 +44,7 @@
             v-model="event.pets"
             name="pets"
             :options="petOptions"
+            vertical="true"
           />
         </div>
       </fieldset>
